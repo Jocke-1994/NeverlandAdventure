@@ -1,0 +1,27 @@
+﻿Rövare / banditattack
+
+Trigger: Slump under dag eller natt
+
+Sannolikhet att spelaren märker attacken: 70% (modifieras av vaktkapten/Halvard)
+
+Val:
+
+Möta dem med vapen
+
+Göra bakhåll
+
+Låta dem stjäla men minimera skada
+
+Händelse/resultat:
+
+Lyckas → rädda resurser, ev. belöning (mat, vapen, mynt)
+
+Misslyckas → skada på bybor, förlorad mat/moral
+
+Statusrapport:
+
+“Rövarna flydde med spannmål, Halvard och Eldric skadade men överlevde.”
+
+Uppdrag efteråt:
+
+Tala med Halvard, Eldric, Eirik (resurser/handel)

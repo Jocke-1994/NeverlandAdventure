@@ -1,0 +1,25 @@
+﻿Giftig orm
+
+Trigger: Slump i skog / vid samling av resurser
+
+Sannolikhet att spelaren märker: 60% (modifieras av Leoric / erfarenhet)
+
+Val:
+
+Behandla med örter direkt
+
+Låt ormen vara och hoppas på det bästa
+
+Händelse/resultat:
+
+Lyckas → ingen permanent skada, sjukdom undviks
+
+Misslyckas → feber, smittorisk, moral -1
+
+Statusrapport:
+
+“En bybo biten av orm, Solveig behandlade så gott hon kunde. Personen vilar nu.”
+
+Uppdrag efteråt:
+
+Tala med Solveig, Liva, den bitna personen

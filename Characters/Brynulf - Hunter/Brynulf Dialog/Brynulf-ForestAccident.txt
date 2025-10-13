@@ -1,0 +1,19 @@
+﻿Kort dialog:
+
+“Kara skadade sig lite under fällningen. Ingen allvarlig skada, men resurser tappades.”
+
+Alternativ:
+
+“Behöver du hjälp?” → “Ja, vi kan bära resurser tillsammans.”
+
+“Bra att ingen blev allvarligt skadad.” → Brynulf nickar
+
+Lång dialog:
+
+“Vi tappade en del kött och trä på grund av olyckan. Vi måste planera bättre nästa gång.”
+
+Val:
+
+Spelaren följer med → resurser räddas snabbare
+
+Spelaren skickar barn/lärling → risk för förlust eller fler skador

@@ -1,0 +1,73 @@
+﻿Karaktärer:
+
+du - hjälten/ledaren
+
+Hjältens Syster
+Namn: Anges
+Make: Död, omkom när byn kom under anfall. Han skyddade familjen men dog till föjd.
+Barn: 3.
+Eirik 11 år.
+Freja: 9 år.
+Astrid: 2 år.
+
+
+
+Torald – Smed 🔨
+Kan smida vapen och verktyg, grundläggande för byggande och försvar.
+
+Solveig – Örtkännare 🐉
+Känner till växter, salvor och drycker. Kan hela sår och lindra sjukdomar.
+
+Brynulf – Jägare 🔨
+Säkerställer matförsörjning från jakt och skinn.
+
+Estrid – Väverska 🔨
+Tillverkar kläder, tyg, rep och tält.
+
+Eldric – Vargjägare 🐉
+Skyddar lägret mot rovdjur och kan strategiskt förhindra attacker.
+
+Kara – Snickarlärling 🔨
+Hjälper till med bygg, möbler och skydd.
+
+Soren – Fiskare 🔨
+Förser byn med fisk och har kunskap om floder och vattenkällor.
+
+Liva – Läkekvinna 🐉
+Medicin och vård, sjukdomshantering, hjälper hela byn.
+
+Halvard – Vaktkapten 🔨
+Ledarskap, försvar, strategi, skyddar byn vid fara.
+
+Tova – Samlare 🔨
+Samlar bär, svamp, ved – viktiga resurser från skog och mark.
+
+Leoric – Stigfinnare 🐉
+Navigering, hitta vatten, skydd och nya marker.
+
+Eira – Krukmakare 🔨
+Skapar kärl, ugnar och redskap, viktigt för mat och hygien.
+
+Ragnar – Kolare 🔨
+Eld och bränsleproduktion, metallarbete, byggresurser.
+
+Selene – Historieberättare 🐉
+Höjer moral, berättar historier och sånger, skapar hopp.
+
+Eirik – Järnhandlare 🔨
+Kunskap om handel, resurser, ekonomi och värdering.
+
+Ylva – Jägarlärling 🔨
+Lär sig jakt, förstärker matförsörjningen och skyddar byn.
+
+Osric – Stenmästare 🔨
+Byggteknik, väggar, ugnar och enklare fästningar.
+
+Maren – Vindvandrare 🐉
+Väderförutsägelse, riskbedömning, hjälper byn att undvika faror.
+
+Finn – Lärd skrivare 🔨
+Dokumentation, kartor, minne – hjälper med organisering och planering.
+
+Astrid – Djurvårdare 🔨
+Tämjer och sköter djur, mjölk, kött, transport och arbetsdjur.

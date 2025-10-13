@@ -1,0 +1,27 @@
+﻿Kort dialog:
+
+“Det brann vid utkanten, men vi räddade de flesta djuren.”
+
+Alternativ:
+
+“Behöver du hjälp med djuren?” → “Ja, vi måste flytta dem från farliga områden.”
+
+“Bra jobbat.” → Astrid nickar
+
+Lång dialog:
+
+“Brandens rök stressade getterna. Vi behöver mer vatten och skyddade hagar.”
+
+Val:
+
+Spelaren hjälper med vattning och flytt → snabbare lugn i hagen
+
+Spelaren skickar lärling → risk att djuren blir rädda
+
+Följdfråga:
+
+“Ska vi bygga en skyddad hage nära floden?”
+
+“Ja” → framtida säkerhet
+
+“Nej” → risk för stress och skador vid nästa brand

@@ -1,0 +1,23 @@
+﻿Matförråd förstörs
+
+Trigger: Fukt, möss, storm
+
+Val:
+
+Rädda mat
+
+Låt det gå förlorat
+
+Resultat:
+
+Lyckas → minimal förlust
+
+Misslyckas → betydande matförlust, moral -1
+
+Statusrapport:
+
+“Förrådet skadades, lösningen är att bygga bättre förvaring.”
+
+Uppdrag efteråt:
+
+Tala med Eira, Estrid, Tova

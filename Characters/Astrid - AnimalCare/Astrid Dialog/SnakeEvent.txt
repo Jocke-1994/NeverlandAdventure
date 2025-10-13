@@ -1,0 +1,27 @@
+﻿Kort dialog:
+
+“En orm bet en av getterna, Solveig behandlade den.”
+
+Alternativ:
+
+“Behöver du mer hjälp?” → “Ja, vi måste hålla dem under observation.”
+
+“Allt verkar okej.” → “Vi får hoppas det räcker.”
+
+Lång dialog:
+
+“Ormen var giftig, men ingen blev allvarligt skadad. Vi behöver hålla djuren lugna.”
+
+Val:
+
+Spelaren samlar örter → djuren återhämtar sig snabbare
+
+Spelaren ignorerar → risk för stress och feber kvarstår
+
+Följdfråga:
+
+“Vill du att jag bygger en säker hage för att undvika fler bett?”
+
+“Ja” → framtida säkerhet
+
+“Nej” → risk för fler incidenter

@@ -1,0 +1,23 @@
+﻿Djur dör / sjukdom bland djur
+
+Trigger: Slump eller tidigare skada/sjukdom
+
+Val:
+
+Försök rädda djur
+
+Låt naturen ha sin gång
+
+Resultat:
+
+Lyckas → överlevande djur
+
+Misslyckas → minskad matförsörjning, transportförmåga, moral -1
+
+Statusrapport:
+
+“En get dog i natt, Astrid försöker stärka resten med foder och värme.”
+
+Uppdrag efteråt:
+
+Tala med Astrid, Brynulf, Tova

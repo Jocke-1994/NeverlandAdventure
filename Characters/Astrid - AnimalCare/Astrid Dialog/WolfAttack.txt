@@ -1,0 +1,25 @@
+﻿Kort dialog:
+
+“Vargarna kom i natt. Ingen allvarligt skadad, men getterna är skärrade.”
+
+Alternativ:
+
+“Behöver du hjälp med djuren?” → “Ja, följ mig till hagen.”
+
+“Bra att alla klarade sig.” → Astrid nickar kort
+
+Lång dialog:
+
+“Getterna är rädda. Två skadade sig lite när de sprang. Vi behöver mer ved för att värma dem.”
+
+Val:
+
+Spelaren hämtar ved själv → “Tack, bra initiativ.”
+
+Spelaren skickar Brynulf → “Säger du till att vi behöver mer ved?”
+
+“Ja” → “Tack!”
+
+“Nej” → “Allt ska man behöva göra själv…”
+
+Spelaren ignorerar → Astrid: “Det kommer ta längre tid att lugna djuren.”

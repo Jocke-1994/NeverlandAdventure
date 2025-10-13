@@ -1,0 +1,25 @@
+﻿Svår terräng / olyckor i skogen
+
+Trigger: Slump vid jakt, vedhuggning eller utforskning
+
+Sannolikhet att spelaren märker olyckan: 80%
+
+Val:
+
+Hjälp direkt
+
+Använd säkerhetsåtgärder (rep, stöd, karaktärer med erfarenhet)
+
+Händelse/resultat:
+
+Lyckas → liten skada, resurser sparade
+
+Misslyckas → skada på person, tappade resurser, moral -1
+
+Statusrapport:
+
+“Kara skadade handen vid fällning av träd, ved förlorad men inga allvarliga konsekvenser.”
+
+Uppdrag efteråt:
+
+Tala med Kara, Ragnar, Halvard

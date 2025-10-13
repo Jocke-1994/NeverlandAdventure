@@ -1,0 +1,31 @@
+﻿Vargattack
+
+Kort dialog:
+
+“Vargarna var ute i natt. Ingen blev allvarligt skadad, men fällor och djur måste kontrolleras.”
+
+Alternativ:
+
+“Behöver du hjälp med fällorna?” → “Ja, följ med mig till skogen.”
+
+“Bra jobbat.” → Brynulf nickar kort
+
+Lång dialog:
+
+“Vi måste kolla fällorna och bybornas vapen. Vargarna kan komma tillbaka om vi inte är försiktiga.”
+
+Val:
+
+Spelaren följer med → snabbare kontroll, fler djur räddas
+
+Spelaren skickar Ylva → Ylva kan lyckas eller misslyckas, Brynulf kommenterar
+
+Ignorera → risk att fällor förstörs, mindre jakt nästa dag
+
+Följdfråga:
+
+“Tror du vargarna kommer tillbaka?”
+
+“Ja, vi måste hålla utkik.”
+
+“Nej, de verkar ha dragit sig tillbaka.”

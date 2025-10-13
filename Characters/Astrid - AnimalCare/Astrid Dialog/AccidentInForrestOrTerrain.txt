@@ -1,0 +1,19 @@
+﻿Kort dialog:
+
+“Kara skadade sig lite när hon fällde träd, men inget allvarligt.”
+
+Alternativ:
+
+“Behöver du hjälp?” → “Ja, vi kan bära resurser tillsammans.”
+
+“Bra att ingen blev allvarligt skadad.” → Astrid nickar
+
+Lång dialog:
+
+“Vi tappade några resurser på grund av olyckan. Vi måste se till att ingen annan skadar sig.”
+
+Val:
+
+Spelaren följer med för att samla resurser → snabbare återhämtning
+
+Spelaren skickar barn/lärling → risk att resurser förloras eller fler skadar sig

@@ -1,0 +1,27 @@
+﻿Kort dialog:
+
+“Eirik och Freja sprang ut i skogen, vi måste hitta dem.”
+
+Alternativ:
+
+“Jag hjälper till att leta.” → “Tack, vi behöver all hjälp.”
+
+“Låt dem vara ett tag.” → “Det kan ta längre tid att hitta dem…”
+
+Lång dialog:
+
+“Barnen rymde i natt. Vi måste hitta dem innan de skadar sig eller stressar djuren.”
+
+Val:
+
+Spelaren letar själv → snabbare återförening
+
+Organisera bybor → fler resurser, men vissa kan misslyckas
+
+Följdfråga:
+
+“Ska vi låta hunden hjälpa till?”
+
+“Ja” → snabbare sökning
+
+“Nej” → längre försvinnande

@@ -1,0 +1,29 @@
+﻿Sjukdom / skada på djur eller barn
+
+Kort dialog:
+
+“Getterna är lite stressade efter natten, men de mår okej.”
+
+Alternativ:
+
+“Behöver du hjälp med djuren?” → “Ja, vi kan göra det snabbare tillsammans.”
+
+“Allt under kontroll?” → “Så gott vi kan.”
+
+Lång dialog:
+
+“Två gettor har lite skador, vi måste ge dem vila och hålla koll på de andra.”
+
+Val:
+
+Spelaren hjälper direkt → snabb återhämtning
+
+Skicka en lärling → risk för försening
+
+Följdfråga:
+
+“Vill du att jag bygger skydd för dem?”
+
+“Ja” → framtida säkerhet
+
+“Nej” → risk för fler incidenter

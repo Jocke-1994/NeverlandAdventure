@@ -1,0 +1,27 @@
+﻿Barn rymmer / går vilse
+
+Trigger: Slump under dag
+
+Sannolikhet att spelaren märker det: 90%
+
+Val:
+
+Gå ut och leta direkt
+
+Samla ett par bybor för sökpatrull
+
+Vänta och hoppas barnet återvänder
+
+Händelse/resultat:
+
+Lyckas → barnet hittas snabbt, moral +1
+
+Misslyckas → barnet försvinner en dag, stress ökar, moral -1
+
+Statusrapport:
+
+“Barnet hittades vid floden, skakat men oskadat. Byborna är lättade.”
+
+Uppdrag efteråt:
+
+Tala med barnet, Astrid (vård), Halvard (säkerhet)

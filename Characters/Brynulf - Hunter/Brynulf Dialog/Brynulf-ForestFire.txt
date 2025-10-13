@@ -1,0 +1,27 @@
+﻿Kort dialog:
+
+“Rök och eld hotade skogen. Vi räddade så mycket vi kunde.”
+
+Alternativ:
+
+“Behöver du hjälp med att flytta djuren?” → “Ja, vi måste agera snabbt.”
+
+“Bra jobbat.” → Brynulf nickar
+
+Lång dialog:
+
+“Brandens rök stressade både djur och bybor. Vi måste se till att de viktigaste resurserna skyddas.”
+
+Val:
+
+Spelaren hjälper med flytt → djuren lugnas snabbare
+
+Skicka lärling → risk för stress hos djuren
+
+Följdfråga:
+
+“Ska vi bygga skyddade hagar nära floden?”
+
+“Ja” → framtida säkerhet
+
+“Nej” → risk för stress och skador vid nästa brand

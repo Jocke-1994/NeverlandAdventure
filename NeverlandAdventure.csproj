@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Characters\Kara\" />
+    <Folder Include="Characters\Eirik\" />
+    <Folder Include="Characters\Finn\" />
+    <Folder Include="Characters\Maren\" />
+    <Folder Include="Characters\Selene\" />
+    <Folder Include="Characters\Ylva\" />
+    <Folder Include="Characters\Osric\" />
+    <Folder Include="Characters\Eira\" />
+    <Folder Include="Characters\Soren\" />
+    <Folder Include="Characters\Liva\" />
+    <Folder Include="Characters\Halvard\" />
+    <Folder Include="Characters\Tova\" />
+    <Folder Include="Characters\Leoric\" />
+    <Folder Include="Characters\Eldric\" />
+    <Folder Include="Characters\Estrid\" />
+    <Folder Include="TypeOfDay\" />
+  </ItemGroup>
+
+</Project>

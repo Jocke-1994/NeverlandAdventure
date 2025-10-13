@@ -1,0 +1,50 @@
+﻿Djur & naturrelaterade attacker:
+
+Vargattack – risk för skador på bybor eller djur, moral kan påverkas.
+
+Björn i närheten – måste försvara sig, risk för allvarliga skador.
+
+Giftig orm – någon blir sjuk eller får feber.
+
+Storm / oväder – förstör byggnader, släcker eldar, risk för skador.
+
+Översvämning (flod eller regn) – förstör mat, vattenkontamination, skador på byggnader.
+
+Skogsbrand – risk för eldsvåda, förlorade resurser, panik.
+---------------------------------------------------------------------------------------------------
+
+Människorelaterade faror:
+Rövare / banditattack – stöld av resurser, risk för skador, kan ge belöning om man lyckas försvara sig.
+
+Fientlig by / rival – hot mot säkerhet, eventuell handel, kan eskalera.
+
+---------------------------------------------------------------------------------------------------
+
+Sjukdom & hälsa
+
+Infektionsutbrott – feber, hosta, smitta till andra bybor.
+
+Barn blir sjuka – sjukdom kan spridas till fler barn och vuxna.
+
+Skador under arbete / jakt – brutna ben, sår, påverkar arbetsförmåga.
+
+---------------------------------------------------------------------------------------------------
+
+Resursrelaterade problem
+
+Misslyckad jakt/fiske – minskade matreserver.
+
+Djur dör – mjölk, kött eller transportförmåga minskar.
+
+Matförråd förstörs – möss, fukt, rutten mat.
+
+---------------------------------------------------------------------------------------------------
+
+Andra faror / oväntade händelser
+
+Barn rymmer / går vilse – måste hittas, stress för bybor.
+
+Gräl / uppror bland bybor – moral minskar, kan påverka beslut.
+
+Svår terräng / olyckor i skogen – någon skadar sig, tappade resurser.
+

@@ -1,0 +1,25 @@
+﻿Björn i närheten
+
+Trigger: Slump under dagen/natten
+
+Spelarens sannolikhet att märka björnen: 60% (kan modifieras av Maren/Vindvandrare)
+
+Val:
+
+Försök driva bort den
+
+Göm dig / varna byn
+
+Händelse/resultat:
+
+Lyckas → inga skador, skinn eller kött att samla
+
+Misslyckas → skador på djur eller personer, moral -1
+
+Statusrapport:
+
+“Björnens närvaro orsakade skada på ett djur, Halvard skadad i arm.”
+
+Uppdrag efteråt:
+
+Tala med Eldric (vargjägare), Astrid (djurvårdare), Halvard

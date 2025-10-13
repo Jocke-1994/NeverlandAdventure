@@ -1,0 +1,27 @@
+﻿Kort dialog:
+
+“Ingen ny sjukdom, men vi måste hålla koll på barnen och getterna.”
+
+Alternativ:
+
+“Behöver du hjälp med medicin?” → “Ja, hämta gärna från skogen.”
+
+“Allt under kontroll?” → “Så gott vi kan.”
+
+Lång dialog:
+
+“Två barn har feber, och getterna visar tecken på stress. Vi behöver mer örter och varma filtar.”
+
+Val:
+
+Spelaren hämtar örter → djuren och barnen blir snabbt omhändertagna
+
+Spelaren litar på Solveig → processen tar längre tid
+
+Följdfråga:
+
+“Vill du att jag också förbereder medicin till djuren?”
+
+“Ja” → effektivitet +
+
+“Nej” → stress hos djuren kvarstår

@@ -1,0 +1,27 @@
+﻿Fientlig by / rival
+
+Trigger: Slump, påverkas av relationer med andra byar
+
+Sannolikhet att spelaren märker: 50%
+
+Val:
+
+Försök diplomati / handel
+
+Förbered försvar
+
+Ignorera (riskerar eskalation)
+
+Händelse/resultat:
+
+Lyckas → vapen, resurser, allierad
+
+Misslyckas → strid, skador, moral -1
+
+Statusrapport:
+
+“Ett par bybor varnade om rivaler i skogen, inga direkta skador men spänningen ökar.”
+
+Uppdrag efteråt:
+
+Tala med Halvard, Eirik, Leoric (info/kartor)

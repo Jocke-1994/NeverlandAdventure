@@ -1,0 +1,25 @@
+﻿Skador under arbete / jakt
+
+Trigger: Slump vid aktiviteter som jakt, bygg, vedhuggning
+
+Sannolikhet att spelaren märker: 70%
+
+Val:
+
+Hjälp den skadade direkt
+
+Skicka till läkare (Liva)
+
+Resultat:
+
+Lyckas → minimal påverkan, lärdom
+
+Misslyckas → längre frånvaro, moral -1
+
+Statusrapport:
+
+“Brynulf skadade armen vid jakt, Kara föreslog att bygga stöd för arbetet.”
+
+Uppdrag efteråt:
+
+Tala med Liva, Brynulf, Halvard

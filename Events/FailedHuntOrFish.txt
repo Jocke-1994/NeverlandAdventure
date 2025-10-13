@@ -1,0 +1,25 @@
+﻿Misslyckad jakt / fiske
+
+Trigger: Slump under dag
+
+Sannolikhet att märka: 100% (spelaren ser resultatet direkt)
+
+Val:
+
+Skicka fler på jakt/fiske
+
+Spara mat
+
+Resultat:
+
+Lyckas → normal matförsörjning
+
+Misslyckas → matbrist, moral -1
+
+Statusrapport:
+
+“Jaktresan gav nästan inget kött. Tova och Soren planerar nästa försök.”
+
+Uppdrag efteråt:
+
+Tala med Brynulf, Soren, Ylva

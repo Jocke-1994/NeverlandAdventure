@@ -1,0 +1,25 @@
+﻿Skogsbrand
+
+Trigger: Slump, ofta under torr period eller efter eldning
+
+Sannolikhet att spelaren märker branden i tid: 50%
+
+Val:
+
+Släck branden med bybor
+
+Låt vissa delar brinna, rädda viktigaste resurser
+
+Händelse/resultat:
+
+Lyckas → liten påverkan, moral +1
+
+Misslyckas → byggnader eller resurser förstörs, panik, moral -1
+
+Statusrapport:
+
+“Skogsbrand bröt ut i utkanten, Eira och Ragnar räddade byggnader och matlager.”
+
+Uppdrag efteråt:
+
+Tala med Eira, Ragnar, Halvard

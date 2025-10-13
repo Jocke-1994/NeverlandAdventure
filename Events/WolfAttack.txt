@@ -1,0 +1,35 @@
+﻿Vargattack
+
+Trigger: Natten inträffar, slumpar om vargattack sker.
+
+Sannolikhet att spelaren vaknar:
+
+Bas: 80%
+
+Modifierad: om spelaren har tidigare skada/sjukdom → 30%
+
+Valmeny (om spelaren vaknar):
+
+Gå ut och slåss
+
+Väck alla
+
+Låt dem sova och hoppas vargarna går
+
+Händelse/resultat:
+
+Beroende på val + ev. matteutmaning/slump, t.ex.:
+
+Lyckas → inga skador, ev. belöning (kött, skinn, moral +1)
+
+Misslyckas → skador på bybor/djur, moral -1, eventuellt sjukdom
+
+Påföljd / statusrapport morgonen efter:
+
+“Resultat från natten: 1 get skadad, 2 barn rädda men rädda, du hittade spår av vargar.”
+
+Uppdrag efter händelsen:
+
+Prata med: Brynulf, Ylva, Astrid (djurvårdaren), Halvard (försvar)
+
+Spelaren kan välja “kort/lång dialog” och få påverkan på moral, resurser, sjukdom etc.

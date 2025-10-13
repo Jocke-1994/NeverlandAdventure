@@ -1,0 +1,28 @@
+﻿Sjukdom & hälsa
+Infektionsutbrott
+
+Trigger: Slump eller efter storm/översvämning
+
+Sannolikhet att spelaren märker tidigt: 40% (modifieras av Solveig/Liva)
+
+Val:
+
+Isolera sjuka
+
+Behandla med örter / medicin
+
+Låt allt vara (risk att fler smittas)
+
+Händelse/resultat:
+
+Lyckas → begränsad spridning
+
+Misslyckas → flera blir sjuka, moral -1
+
+Statusrapport:
+
+“Tre bybor är sjuka, ett barn hostar kraftigt. Solveig och Liva arbetar med medicin.”
+
+Uppdrag efteråt:
+
+Tala med Solveig, Liva, barnens vårdnadshavare

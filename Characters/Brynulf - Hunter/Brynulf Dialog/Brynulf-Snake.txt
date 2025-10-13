@@ -1,0 +1,27 @@
+﻿Kort dialog:
+
+“En orm bet en av våra höns, men det verkar inte farligt.”
+
+Alternativ:
+
+“Behöver du hjälp?” → “Ja, kontrollera de andra djuren.”
+
+“Allt verkar okej.” → Brynulf nickar
+
+Lång dialog:
+
+“Vi måste hålla koll på djuren. Ormen var giftig, även om ingen blev allvarligt skadad.”
+
+Val:
+
+Spelaren samlar örter → djuren återhämtar sig snabbare
+
+Ignorera → stress och risk för fler problem kvarstår
+
+Följdfråga:
+
+“Ska vi bygga en säker hage?”
+
+“Ja” → framtida säkerhet
+
+“Nej” → risk vid nästa orm-incident

@@ -1,0 +1,55 @@
+﻿Väderrelaterade attacker
+STORM
+
+Trigger: Slump under dagen
+
+Sannolikhet att spelaren märker stormen tidigt: 50% (modifieras av Maren)
+
+Val:
+
+Förbered skydd / förstärk hus
+
+Låt stormen passera (ta risk)
+
+Händelse/resultat:
+
+Lyckas med förberedelser → minimal skada, moral +1
+
+Misslyckas → förstörda byggnader, matförlust, risk för skador
+
+Statusrapport morgonen efter:
+
+“Stormen förstörde 2 väggar och släckte elden i köket. Ingen person skadad.”
+
+Uppdrag efteråt:
+
+Tala med Kara (snickarlärling), Osric (stenmästare), Ragnar (kolare)
+
+
+
+
+ÖVERSVÄMNING
+
+Trigger: Slump, nära floden efter regn
+
+Sannolikhet att spelaren märker tidigt: 40%
+
+Val:
+
+Flytta resurser / byggnader
+
+Låt vattnet rinna över (ta risk)
+
+Resultat:
+
+Lyckas → liten påverkan
+
+Misslyckas → mat förstörd, sjukdomsrisk ↑
+
+Statusrapport:
+
+“Floden svämmade över och förstörde spannmål. Solveig jobbar på medicin mot fuktrelaterad feber.”
+
+Uppdrag efteråt:
+
+Tala med Tova (samlare), Solveig (örtkännare), Liva (läkekvinna)
