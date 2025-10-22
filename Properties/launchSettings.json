@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "NeverlandAdventure": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "TWILIO_ACCOUNT_SID": "SKbf6ae1cde85d1e78530927e99177dd0c",
+        "TWILIO_AUTH_TOKEN": "HBkBkaUTBQgk0eHxiEfFR8V0izqZMHeC",
+        "TWILIO_FROM_NUMBER": "+16202993271"
+      }
+    }
+  }
+}
