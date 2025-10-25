@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using NeverlandAdventure.Missions;
 
 namespace NeverlandAdventure.Player
 {
@@ -41,6 +42,29 @@ namespace NeverlandAdventure.Player
             {
                 Console.WriteLine($"{r.Key}: {r.Value}");
             }
+        }
+        private static Dictionary<string, int> todayCount = new();
+        private static Dictionary<string, int> dailyLimit = new()
+            {
+                { "Trä", 3 },
+                { "Sten", 3 },
+                { "Mat", 3 }
+            };
+
+        public static int GetTodayCount(string name) => todayCount.ContainsKey(name) ? todayCount[name] : 0;
+        public static int GetDailyLimit(string name)
+        {
+            int baseLimit = dailyLimit.ContainsKey(name) ? dailyLimit[name] : 0;
+            int missionBonus = MissionManager.GetExtraDailyLimit(name);
+            return baseLimit + missionBonus;
+        }
+
+
+        public static void IncrementTodayCount(string name)
+        {
+            if (!todayCount.ContainsKey(name))
+                todayCount[name] = 0;
+            todayCount[name]++;
         }
     }
 }

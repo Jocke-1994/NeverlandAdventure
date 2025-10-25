@@ -1,6 +1,6 @@
 ﻿using System;
 using NeverlandAdventure.Player;
-using NeverlandAdventure.Resources;
+using NeverlandAdventure.Missions;
 
 namespace NeverlandAdventure.Menus
 {
@@ -9,14 +9,21 @@ namespace NeverlandAdventure.Menus
         public void Show()
         {
             bool collecting = true;
+
             while (collecting)
             {
                 Console.Clear();
                 Console.WriteLine("=== SAMLA ===");
-                Console.WriteLine("1. Trä");
-                Console.WriteLine("2. Sten");
-                Console.WriteLine("3. Mat");
+
+                var woodMission = MissionManager.GetMissionProgress("Trä");
+                var stoneMission = MissionManager.GetMissionProgress("Sten");
+                var foodMission = MissionManager.GetMissionProgress("Mat");
+
+                Console.WriteLine($"1. Trä  - Uppdrag: {woodMission.Progress}/{woodMission.Required} - Totalt idag: {PlayerData.GetTodayCount("Trä")}/{PlayerData.GetDailyLimit("Trä")}");
+                Console.WriteLine($"2. Sten - Uppdrag: {stoneMission.Progress}/{stoneMission.Required} - Totalt idag: {PlayerData.GetTodayCount("Sten")}/{PlayerData.GetDailyLimit("Sten")}");
+                Console.WriteLine($"3. Mat  - Uppdrag: {foodMission.Progress}/{foodMission.Required} - Totalt idag: {PlayerData.GetTodayCount("Mat")}/{PlayerData.GetDailyLimit("Mat")}");
                 Console.WriteLine("4. Tillbaka");
+
                 Console.Write("\nVälj resurs att samla: ");
                 string choice = Console.ReadLine();
 
@@ -34,10 +41,10 @@ namespace NeverlandAdventure.Menus
             }
         }
 
-        private void Gather(string resourceName)
+        private void Gather(string resource)
         {
             Console.Clear();
-            Console.WriteLine($"Du försöker samla {resourceName}...\n");
+            Console.WriteLine($"Du försöker samla {resource}...\n");
 
             var rnd = new Random();
             int correct = 0;
@@ -53,15 +60,17 @@ namespace NeverlandAdventure.Menus
 
             if (correct == 3)
             {
-                PlayerData.AddResource(resourceName, 1);
-                Console.WriteLine($"\nDu fick 1 {resourceName}!");
+                PlayerData.AddResource(resource, 1);
+                PlayerData.IncrementTodayCount(resource);
+                MissionManager.UpdateMissionProgress(resource);
+                Console.WriteLine($"\nDu fick 1 {resource}!");
             }
             else
             {
                 Console.WriteLine("\nDu klarade inte uppgiften denna gång.");
             }
 
-            Console.WriteLine("\nTryck på valfri tangent för att återgå...");
+            Console.WriteLine("\nTryck på valfri tangent...");
             Console.ReadKey();
         }
     }

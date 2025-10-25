@@ -17,8 +17,9 @@ namespace NeverlandAdventure.Menus
                 Console.WriteLine("=== HUVUDMENY ===");
                 Console.WriteLine("1. Uppdrag");
                 Console.WriteLine("2. Samla");
-                Console.WriteLine("3. Gå till kvällen");
-                Console.WriteLine("4. Avsluta spelet");
+                Console.WriteLine("3. Omvandla");
+                Console.WriteLine("4. Gå till kvällen");
+                Console.WriteLine("5. Avsluta spelet");
                 Console.Write("\nVälj ett alternativ: ");
                 string input = Console.ReadLine();
 
@@ -31,9 +32,12 @@ namespace NeverlandAdventure.Menus
                         new CollectMenu().Show();
                         break;
                     case "3":
-                        GoToEvening();
+                        new ConvertMenu().Show();
                         break;
                     case "4":
+                        GoToEvening();
+                        break;
+                    case "5":
                         ExitGame();
                         break;
                     default:
