@@ -1,11 +1,10 @@
-﻿using NeverlandAdventure;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NeverlandAdventure
+namespace NeverlandAdventure.StartMenu
 {
     public static class UserDatabase
     {

@@ -23,7 +23,6 @@
     <Folder Include="Characters\Leoric\" />
     <Folder Include="Characters\Eldric\" />
     <Folder Include="Characters\Estrid\" />
-    <Folder Include="TypeOfDay\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -31,8 +30,23 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Events\BearEvent.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="BackgroundStory\LongBackground.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Events\BanditEvent.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Events\BearEvent.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Events\DamagedSupply.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 

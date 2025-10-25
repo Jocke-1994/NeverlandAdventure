@@ -1,5 +1,4 @@
-﻿using NeverlandAdventure;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,7 +6,7 @@ using System.Threading.Channels;
 using System.Threading.Tasks;
 using Twilio.Types;
 
-namespace NeverlandAdventure
+namespace NeverlandAdventure.StartMenu
 {
     public class RegisterFeature
     {
@@ -34,15 +33,15 @@ namespace NeverlandAdventure
             }
 
             // 4️⃣ Kör 2FA
-            bool verified = await TwoFactorAuthAsync();
-            if (!verified)
-            {
-                Console.WriteLine("Registreringen avbröts.");
-                return;
-            }
+            //bool verified = await TwoFactorAuthAsync();
+            //if (!verified)
+            //{
+            //    Console.WriteLine("Registreringen avbröts.");
+            //    return;
+            //}
 
-            // 5️⃣ Allt klart
-            Console.WriteLine($"✅ Kontot har skapats!");
+            //// 5️⃣ Allt klart
+            //Console.WriteLine($"✅ Kontot har skapats!");
         }
         public static bool CheckUsernameAvailability(string username)
         {
@@ -109,36 +108,36 @@ namespace NeverlandAdventure
             Console.WriteLine();
             return password.ToString();
         }
-        public static async Task<bool> TwoFactorAuthAsync()
-        {
-            Console.Write("Ange ditt telefonnummer för 2FA: ");
-            string phoneNumber = Console.ReadLine();
+        //public static async Task<bool> TwoFactorAuthAsync()
+        //{
+        //    Console.Write("Ange ditt telefonnummer för 2FA: ");
+        //    string phoneNumber = Console.ReadLine();
 
-            if (phoneNumber.StartsWith("0"))
-            {
-                phoneNumber = "+46" + phoneNumber.Substring(1);
-            }
+        //    if (phoneNumber.StartsWith("0"))
+        //    {
+        //        phoneNumber = "+46" + phoneNumber.Substring(1);
+        //    }
 
-            Random rand = new Random();
-            string verificationCode = rand.Next(100000, 999999).ToString();
+        //    Random rand = new Random();
+        //    string verificationCode = rand.Next(100000, 999999).ToString();
 
-            TwoStepVerification twilio = new TwoStepVerification();
-            await twilio.SendSmsAsync(phoneNumber, $"Koden för att registrera ett konto till Neverland är: {verificationCode}");
+        //    TwoStepVerification twilio = new TwoStepVerification();
+        //    await twilio.SendSmsAsync(phoneNumber, $"Koden för att registrera ett konto till Neverland är: {verificationCode}");
 
-            Console.Write("Ange koden du fick via SMS: ");
-            string userInput = Console.ReadLine();
+        //    Console.Write("Ange koden du fick via SMS: ");
+        //    string userInput = Console.ReadLine();
 
-            if (userInput == verificationCode)
-            {
-                Console.WriteLine("✅ Verifiering lyckades! Kontot är nu bekräftat.");
-                return true;
-            }
-            else
-            {
-                Console.WriteLine("❌ Fel kod. Registrering avbruten.");
-                return false;
-            }
-        }
+        //    if (userInput == verificationCode)
+        //    {
+        //        Console.WriteLine("✅ Verifiering lyckades! Kontot är nu bekräftat.");
+        //        return true;
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine("❌ Fel kod. Registrering avbruten.");
+        //        return false;
+        //    }
+        //}
 
         //
         // Klassen ska hantera användarregistrering inklusive validering av indata,

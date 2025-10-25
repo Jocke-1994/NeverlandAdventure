@@ -3,9 +3,9 @@
     "NeverlandAdventure": {
       "commandName": "Project",
       "environmentVariables": {
-        "TWILIO_ACCOUNT_SID": "SKbf6ae1cde85d1e78530927e99177dd0c",
-        "TWILIO_AUTH_TOKEN": "HBkBkaUTBQgk0eHxiEfFR8V0izqZMHeC",
-        "TWILIO_FROM_NUMBER": "+16202993271"
+        "TWILIO_ACCOUNT_SID": "SK69d7bca4345d68130b6a3b8872744ec9",
+        "TWILIO_AUTH_TOKEN": "SbmDGhGudRCabCNndhFS7oT3dNFV1HqH",
+        "TWILIO_FROM_NUMBER": "+15707998115"
       }
     }
   }

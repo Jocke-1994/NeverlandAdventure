@@ -1,11 +1,10 @@
-﻿using NeverlandAdventure;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NeverlandAdventure
+namespace NeverlandAdventure.StartMenu
 {
     public class Welcomepage
     {
@@ -45,7 +44,7 @@ namespace NeverlandAdventure
 
                         if (confirmChoice == "1")
                         {
-                            Game game = new Game();
+                            MainGame game = new MainGame();
                             game.Start();
                         }                      
                         break;

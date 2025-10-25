@@ -7,16 +7,16 @@ using Twilio;
 using Twilio.Rest.Api.V2010.Account;
 using Twilio.Types;
 
-namespace NeverlandAdventure
+namespace NeverlandAdventure.StartMenu
 {
-    public class TwoStepVerification
+    public class TwoStepVerificationSMS
     {
         private readonly string _accountSid; // Twilio Account SID
         private readonly string _authToken; // Twilio Auth Token
         private readonly string _fromNumber; // Twilio phone number
 
         //Konstruktor: initierar Twilio-klienten med autentiseringsuppgifter från miljövariabler.
-        public TwoStepVerification()
+        public TwoStepVerificationSMS()
         {
             _accountSid = Environment.GetEnvironmentVariable("TWILIO_ACCOUNT_SID");
             _authToken = Environment.GetEnvironmentVariable("TWILIO_AUTH_TOKEN");
@@ -24,22 +24,26 @@ namespace NeverlandAdventure
 
             if (string.IsNullOrEmpty(_accountSid) || string.IsNullOrEmpty(_authToken))
                 throw new InvalidOperationException("Twilio credentials are not set in environment variables.");
-
             TwilioClient.Init(_accountSid, _authToken);
-
+            
         }
         public async Task<string> SendSmsAsync(string toNumber, string message)
         {
+            if (string.IsNullOrEmpty(_accountSid) || string.IsNullOrEmpty(_authToken))
+
+                return "Twilio not configured.";
+            
             try
             {
-                var messageResource = await MessageResource.CreateAsync(
-                    to: new PhoneNumber(toNumber),
-                    from: new PhoneNumber(_fromNumber ?? "+16202993271"),
+                var msg = await Twilio.Rest.Api.V2010.Account.MessageResource.CreateAsync(
+                    to: new Twilio.Types.PhoneNumber(toNumber),
+                    from: new Twilio.Types.PhoneNumber(_fromNumber),
                     body: message
                 );
 
-                Console.WriteLine($"SMS skickat till {toNumber}: {message}");
-                return messageResource.Sid;
+                return $"SMS sent";
+
+                
             }
             catch (Exception ex)
             {
