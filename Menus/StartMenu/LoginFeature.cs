@@ -33,8 +33,8 @@ namespace NeverlandAdventure.StartMenu
         public static void ShowLoginFeature()
         {
             // Skapa ett testkonto om det inte finns
-            if (!UserDatabase.VerifyUser("Test", "Test123"))
-                UserDatabase.AddUser("Test", "Test123");
+            if (!UserDatabase.VerifyUser("Bob", "Test12345!"))
+                UserDatabase.AddUser("Bob", "Test12345!");
 
             bool loggedIn = false;
             while (!loggedIn)

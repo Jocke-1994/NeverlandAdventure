@@ -1,5 +1,6 @@
 ﻿using NeverlandAdventure;
 using NeverlandAdventure.Menus;
+using NeverlandAdventure.StartMenu;
 using System;
 using System.Collections.Generic;
 
@@ -10,12 +11,12 @@ namespace NeverlandAdventure
         
         static void Main(string[] args)
         {
-            //Welcomepage.DisplayWelcomePage(); //För att testa Welcomepage. //await används för 2FA SMS. (await Welcomepage.DisplayWelcomePage();)
+            Welcomepage.DisplayWelcomePage(); //För att testa Welcomepage.
             //LoginFeature.ShowLoginFeature(); //För att testa LoginFeature.
             //RegisterFeature.ShowRegisterFeature(); //För att testa RegisterFeature.
             //För att testa CollectMenu.
-            MainGame game = new MainGame();
-            game.Start();
+            //MainGame game = new MainGame();
+            //game.Start();
 
         }
 

@@ -9,7 +9,7 @@ namespace NeverlandAdventure.Menus
         {
             Console.Clear();
             Console.WriteLine("--- OMVANDLA ---");
-            Console.WriteLine("1. 2 Trä + 2 Sten → +1 Försvar");
+            Console.WriteLine("1. 2 Trä + 2 Sten = +1 Försvar");
             Console.WriteLine("2. Tillbaka");
             Console.Write("Val: ");
             string val = Console.ReadLine();

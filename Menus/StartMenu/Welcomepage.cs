@@ -8,7 +8,7 @@ namespace NeverlandAdventure.StartMenu
 {
     public class Welcomepage
     {
-        public static async Task DisplayWelcomePage()
+        public static void DisplayWelcomePage()
         {
             bool isActive = true;
             while (isActive)
@@ -17,7 +17,7 @@ namespace NeverlandAdventure.StartMenu
                 // Användaren får välja att logga in eller registrera sig
                 Console.WriteLine("Välkommen till Neverland Adventure!");
                 Console.WriteLine("1. Logga in.");
-                Console.WriteLine("2. Skapa konto.");
+                Console.WriteLine("2. Skapa konto. /Fungerar inte.");
                 Console.WriteLine("3. Spela utan konto.");
 
                 Console.WriteLine("4. Avsluta.");
@@ -34,7 +34,7 @@ namespace NeverlandAdventure.StartMenu
                         LoginFeature.ShowLoginFeature();
                         break;
                     case "2":
-                        await RegisterFeature.ShowRegisterFeature();
+                        RegisterFeature.ShowRegisterFeature();
                         break;
                     case "3":
                         Console.WriteLine("Är du säker? Utan konto kan du inte spara");
