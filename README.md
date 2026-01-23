@@ -10,3 +10,5 @@ Resursinsamling och omvandling
 Uppdrag från bybor
 
 Progression genom val och konsekvenser
+
+Detta är ett spel som är under utveckling.
