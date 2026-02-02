@@ -1,14 +1,44 @@
-Neverland Adventure är ett berättelsedrivet konsolspel där du tar rollen som en utstött byledare som måste börja om från noll.
-Genom val, resurshantering och dialoger formar du din egen väg mot försoning – och bygger sakta upp din by igen.
+Neverland Adventure 🏴‍☠️
+Neverland Adventure är ett textbaserat äventyrsspel (eller RPG) utvecklat i C# och .NET. Projektet fokuserar på att tillämpa objektorienterade principer, logikhantering och ren kod för att skapa en engagerande användarupplevelse direkt i konsolen.
 
-Spelet kombinerar:
+🚀 Översikt
+Spelet tar spelaren till Neverland där utforskning, interaktion och beslutsfattande står i centrum. Syftet med projektet har varit att bygga en robust och skalbar arkitektur för ett konsolbaserat spel, med fokus på tydlig separation av logik och data.
 
-Berättelsebaserade scener
+🛠 Tekniska Funktioner & Arkitektur
+I detta projekt har jag lagt stor vikt vid följande tekniska aspekter:
 
-Resursinsamling och omvandling
+Objektorienterad Programmering (OOP): Användning av klasser, arv och inkapsling för att hantera spelobjekt (t.ex. spelare, föremål, fiender).
 
-Uppdrag från bybor
+Tillståndshantering: Logik för att hålla koll på spelarens framsteg, inventory och nuvarande position i spelvärlden.
 
-Progression genom val och konsekvenser
+Input-validering: Säker hantering av användarinmatning för att förhindra krascher och säkerställa en smidig användarresa.
 
-Detta är ett spel som är under utveckling.
+Clean Code: Fokus på läsbarhet, tydlig namngivning och små, fokuserade metoder.
+
+Logikseparering: Strukturering av koden för att separera spelregler från användargränssnittet (Console UI).
+
+💻 Installation och Körning
+För att köra projektet lokalt behöver du ha .NET SDK installerat.
+
+Klona repot:
+
+Bash
+git clone https://github.com/Jocke-1994/NeverlandAdventure.git
+Gå in i projektmappen:
+
+Bash
+cd NeverlandAdventure
+Bygg och kör applikationen:
+
+Bash
+dotnet run
+📖 Lärdomar
+Under utvecklingen av Neverland Adventure har jag fördjupat mina kunskaper inom:
+
+Strukturering av större logikflöden i C#.
+
+Hantering av samlingar (Listor/Dictionaries) för att lagra speldata dynamiskt.
+
+Felsökning och refactoring för att förbättra kodkvaliteten över tid.
+
+Detta projekt är en del av min utbildning till Systemutvecklare .NET vid NBI/Handelsakademin.
